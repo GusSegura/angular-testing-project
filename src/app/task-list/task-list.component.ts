@@ -20,7 +20,7 @@ export class TaskListComponent {
 
   addTask(task: string) {
     console.log('Adding task:', task);
-    this.nuevoMensaje.emit(this.msg);
+    // this.nuevoMensaje.emit(this.msg);
   
   }
 
